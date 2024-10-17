@@ -1,0 +1,4 @@
+- path: v1/account/login
+  data:
+    username: admin
+    password: hcc123456
