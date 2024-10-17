@@ -1,85 +1,82 @@
 import os
 import sys
+from typing import Optional
 
 
 sys.path.append(os.getcwd())
 from object.casedata_loader import CaseDataLoader
 from object.case_data import CaseData
-from object.request_util import RequestUtil
+from object.request_util import RequestApi
 import re
 import pytest
 from common.yaml_util import YamlUtil as YU
 from testcase.weixin.case.conftest import logger
 
-current_path = os.path.abspath(__file__)
-casedata_dir = os.path.join(os.path.dirname(os.path.dirname(current_path)), "data")
-casedata_path = os.path.join(casedata_dir, "test_weixin_data.yaml")
+
+# @pytest.fixture(scope="class")
+# def api_request():
+#     return RequestApi()
+
+
+# @pytest.fixture(scope="class")
+# def casedata_loader():
+#     return CaseDataLoader(casedata_path)
 
 
 class TestApi(object):
+    _casedata_dir = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"
+    )
+    _casedata_path = os.path.join(_casedata_dir, "test_weixin_data.yaml")
+    _casedate_loader = CaseDataLoader(_casedata_path)
 
-    request = RequestUtil()
-    casedata_loader = CaseDataLoader(casedata_path)
+    def get_requestDate(self, story):
+        request_data = TestApi._casedate_loader.get_data(story).request
+        return request_data
+
+    def run_testcase(self, story, update_fields: Optional[dict] = {},res_type=None):
+        request_data = self.get_requestDate(story)
+        if update_fields:
+            for key, value in update_fields.items():
+                request_data[key] = value
+
+        return RequestApi.send_request(res_type, **request_data)
 
     # 获取access_token鉴权码
-    @pytest.mark.passed
-    @pytest.mark.parametrize("case_data", [casedata_loader.get_data("get_token")])
-    def test_get_token(self, case_data: CaseData):
-        requestDate = case_data.request
-        res = self.request.send_request(**requestDate)
-        YU.write_yaml({"access_token": res.json()["access_token"]})
-
-        logger.info(res.json())
+    @pytest.mark.debug
+    def test_get_token(self):
+        res = self.run_testcase("get_token")
         assert len(res.json()["access_token"]) == 136 and res.status_code == 200
+        YU.write_yaml({"access_token": res.json()["access_token"]})
 
     # 查询标签
     @pytest.mark.passed
-    @pytest.mark.parametrize("case_data", [casedata_loader.get_data("select_flag")])
-    def test_select_flag(self, case_data: CaseData):
-        requestData = case_data.request
-        requestData["params"] = {"access_token": YU.read_yaml(key="access_token")}
-        res = self.request.send_request(**requestData)
-
-        logger.info(f"res:{res.json()}")
+    def test_select_flag(self):
+        update_fields = {"params": {"access_token": YU.read_yaml(key="access_token")}}
+        res = self.run_testcase("select_flag", update_fields)
         assert len(res.json()) != None and res.status_code == 200
 
     # 编辑标签
     @pytest.mark.passed
-    @pytest.mark.parametrize(
-        "case_data",
-        [casedata_loader.get_data("edit_flag")],  # 通过story读取对应的测试用例数据
-    )
-    def test_edit_flag(self, case_data: CaseData):
-        requestDate = case_data.request
-        res = self.request.send_request(**requestDate)
-
-        logger.info(f"res:{res.json()}")
+    def test_edit_flag(self):
+        res = self.run_testcase("edit_flag")
         assert len(res.json()) != None and res.status_code == 200
 
-    # 编辑标签
+    # 文件上传
     @pytest.mark.passed
-    @pytest.mark.parametrize(
-        "case_data",
-        [casedata_loader.get_data("file_upload")],  # 通过story读取对应的测试用例数据
-    )
-    def test_file_upload(self, case_data: CaseData):
-        requestDate = case_data.request
-        for key, value in requestDate["files"].items():
-            requestDate["files"][key] = open(
-                os.path.join(casedata_dir, value), "rb"
-            )  # 以rb二进制格式读取上传文件
-        requestDate["params"] = {"access_token": YU.read_yaml("access_token")}
-        res = self.request.send_request(**requestDate)
-
-        logger.info(f"res:{res.json()}")
+    def test_file_upload(self):
+        for key, value in self.get_requestDate("file_upload")["files"].items():
+            update_fields = {
+                "params": {"access_token": YU.read_yaml("access_token")},
+                "files": {key: open(os.path.join(self._casedata_dir, value), "rb")},
+            }
+        res = self.run_testcase("file_upload", update_fields)
         assert res.status_code == 200 and res.json()["url"] != None
 
-    @pytest.mark.passed
-    @pytest.mark.parametrize("case_data", [casedata_loader.get_data("get_phpwind")])
     # 访问phpwind首页
-    def test_get_phpwind(self, case_data: CaseData):
-        requestDate = case_data.request
-        res = self.request.send_request(**requestDate)
+    @pytest.mark.passed
+    def test_get_phpwind(self):
+        res = self.run_testcase("get_phpwind")
         # 正则匹配csrf_token
         csrf_token = YU.write_yaml(
             {
@@ -88,22 +85,13 @@ class TestApi(object):
                 ).group(1)
             }
         )
-
-        logger.debug(f"res:{res.text}")
         assert len(csrf_token) == 16 and res.status_code == 200
 
     # 登录接口
     @pytest.mark.passed
-    @pytest.mark.parametrize(
-        "case_data",
-        [casedata_loader.get_data("login")],  # 通过story读取对应的测试用例数据
-    )
-    def test_login(self, case_data: CaseData):
-        requestDate = case_data.request
-        requestDate["data"] = {"csrf_token": YU.read_yaml("csrf_token")}
-        res = self.request.send_request(**requestDate)
-
-        logger.info(res.json())
+    def test_login(self):
+        update_fields = {"params": {"csrf_token": YU.read_yaml("csrf_token")}}
+        res = self.run_testcase("login", update_fields, res_type="text")
         assert res.status_code == 200
 
 
