@@ -11,6 +11,8 @@ logger: Optional[logging.Logger] = logging.getLogger("main")
 
 
 class RequestApi:
+    """统一请求封装类"""
+
     session = requests.session()
 
     @classmethod
@@ -23,13 +25,15 @@ class RequestApi:
             response = RequestApi.session.request(**kwargs)
             # 记录响应信息
             logger.info(f"Response Code: {response.status_code}")
-            if res_type == "json":
+            if res_type.lower() == "json":
                 logger.info(f"Response Body: {response.json()}")
-            elif res_type == "type":
+            elif res_type.lower() == "text":
                 logger.info(f"Response Body: {response.text}")
             else:
                 logger.exception(f"res_type param type error!")
-                raise TypeError
+                raise TypeError(
+                    f"Invalid value for res_type: {res_type}. Expected 'json' or 'text'."
+                )
             return response
         except Exception as e:
             logger.error(f"Request failed: {str(e)}")

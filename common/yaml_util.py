@@ -9,19 +9,20 @@ from conf.conf import YAML_PATH
 
 
 class YamlUtil(object):
+    """接口测试关联yaml文件操作类"""
 
     # 读文件
     @classmethod
-    def write_yaml(cls, data, file_path=YAML_PATH):
+    def edit_data(cls, data, file_path=YAML_PATH):
         with open(file_path, mode="a+", encoding="utf-8") as f:
             yaml.dump(data, stream=f, allow_unicode=True)
         # 获取data字典的key,data={"key":"value"}
         key = next(iter(data))
-        return cls.read_yaml(key,file_path)
+        return cls.get_data(key, file_path)
 
     # 写文件
     @classmethod
-    def read_yaml(cls, key=None, file_path=YAML_PATH):
+    def get_data(cls, key=None, file_path=YAML_PATH):
         with open(file_path, mode="r+", encoding="utf-8") as f:
             value = yaml.load(f, yaml.FullLoader)
             return value if not key else value[key]
@@ -34,6 +35,6 @@ class YamlUtil(object):
 
 
 if __name__ == "__main__":
-    content = YamlUtil.write_yaml({"name": "百里老师"}, YAML_PATH)
+    content = YamlUtil.edit_data({"name": "百里老师"}, YAML_PATH)
     print(type(content))
     print(content)

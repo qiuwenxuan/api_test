@@ -8,6 +8,8 @@ import configparser
 
 
 class ParseConf:
+    """conf.ini文件操作类"""
+
     def __init__(self, conf_path=None):
         self.conf = configparser.ConfigParser()
         if conf_path and os.path.exists(conf_path):

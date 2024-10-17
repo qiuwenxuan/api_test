@@ -1423,3 +1423,643 @@ NoneType: None
 "2024-10-17 16:06:33,084 - main - request_util.py[line:31] - ERROR - res_type param type error!"
 NoneType: None
 "2024-10-17 16:06:33,084 - main - request_util.py[line:35] - ERROR - Request failed: "
+"2024-10-17 16:08:25,902 - main.weixin - conftest.py[line:20] - INFO - 正在清理yaml文件..."
+"2024-10-17 16:08:25,904 - main - request_util.py[line:19] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/token"
+"2024-10-17 16:08:25,904 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'headers': None, 'params': {'grant_type': 'client_credential', 'appid': 'wx8a9de038e93f77ab', 'secret': '8326fc915928dee3165720c910effb86'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:08:26,517 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:08:26,518 - main - request_util.py[line:31] - ERROR - res_type param type error!"
+NoneType: None
+"2024-10-17 16:08:26,518 - main - request_util.py[line:35] - ERROR - Request failed: "
+"2024-10-17 16:09:02,066 - main.weixin - conftest.py[line:20] - INFO - 正在清理yaml文件..."
+"2024-10-17 16:09:02,067 - main - request_util.py[line:19] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/token"
+"2024-10-17 16:09:02,068 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'headers': None, 'params': {'grant_type': 'client_credential', 'appid': 'wx8a9de038e93f77ab', 'secret': '8326fc915928dee3165720c910effb86'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:09:02,715 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:09:02,716 - main - request_util.py[line:27] - INFO - Response Body: {'access_token': '85_2vDzc9tyckMD_onOVKqiRppOr_1rPap_dfoEtDenNLBcUxcLUhwuqxVb6eDNWY8VzzownHn03UpeiQLvblC_i6ve5Huq6Uen75zh40SU4MwWeI2l7Kn-zTnukscWYCiAJAMOS', 'expires_in': 7200}"
+"2024-10-17 16:09:15,452 - main.weixin - conftest.py[line:20] - INFO - 正在清理yaml文件..."
+"2024-10-17 16:09:15,455 - main - request_util.py[line:19] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/token"
+"2024-10-17 16:09:15,455 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'headers': None, 'params': {'grant_type': 'client_credential', 'appid': 'wx8a9de038e93f77ab', 'secret': '8326fc915928dee3165720c910effb86'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:09:16,035 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:09:16,036 - main - request_util.py[line:27] - INFO - Response Body: {'access_token': '85_2vDzc9tyckMD_onOVKqiRppOr_1rPap_dfoEtDenNLBcUxcLUhwuqxVb6eDNWY8VzzownHn03UpeiQLvblC_i6ve5Huq6Uen75zh40SU4MwWeI2l7Kn-zTnukscCHLiAJAWBF', 'expires_in': 7200}"
+"2024-10-17 16:09:16,045 - main - request_util.py[line:19] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/tags/get"
+"2024-10-17 16:09:16,045 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/get', 'headers': None, 'params': {'access_token': '85_2vDzc9tyckMD_onOVKqiRppOr_1rPap_dfoEtDenNLBcUxcLUhwuqxVb6eDNWY8VzzownHn03UpeiQLvblC_i6ve5Huq6Uen75zh40SU4MwWeI2l7Kn-zTnukscCHLiAJAWBF'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:09:16,350 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:09:16,350 - main - request_util.py[line:27] - INFO - Response Body: {'tags': [{'id': 2, 'name': '星标组', 'count': 0}, {'id': 6205, 'name': '\\u5e7f\\u4e1c37805', 'count': 0}, {'id': 6311, 'name': 'xiaomingJDHNV', 'count': 0}, {'id': 6313, 'name': '\\u5e7f\\u4e1c', 'count': 0}, {'id': 6314, 'name': 'cece', 'count': 0}, {'id': 6315, 'name': '\\u5e7f\\u4e1c\\u4eba', 'count': 0}, {'id': 6316, 'name': 'ceshi116677788833', 'count': 0}, {'id': 6317, 'name': '\\u6c89\\u7761\\u5ba2\\u6237001', 'count': 0}, {'id': 6318, 'name': '\\u6c89\\u7761\\u5ba2\\u6237002', 'count': 0}, {'id': 6319, 'name': '\\u6c89\\u7761\\u5ba2\\u62378', 'count': 0}, {'id': 6321, 'name': '\\u5e7f\\u4e1c78635', 'count': 0}, {'id': 6322, 'name': '\\u5e7f\\u4e1c25349', 'count': 0}, {'id': 6326, 'name': '\\u6d4b\\u8bd5\\u6807\\u7b7e832', 'count': 0}, {'id': 6327, 'name': '\\u65b0\\u5ba2001', 'count': 0}, {'id': 6372, 'name': '??', 'count': 0}, {'id': 6404, 'name': '广东123', 'count': 0}, {'id': 6405, 'name': '广东1231', 'count': 0}, {'id': 6406, 'name': '技术学院1726663435', 'count': 0}, {'id': 6407, 'name': '技术学院1726663909', 'count': 0}, {'id': 6408, 'name': '技术学院1726663936', 'count': 0}, {'id': 6412, 'name': '学院1726665314165', 'count': 0}, {'id': 6413, 'name': '学院1726665345305', 'count': 0}, {'id': 6414, 'name': '学院1726665437743', 'count': 0}, {'id': 6415, 'name': '学院1726665492005', 'count': 0}, {'id': 6416, 'name': '学院1726665503377', 'count': 0}, {'id': 6417, 'name': '学院1726665512145', 'count': 0}, {'id': 6418, 'name': '学院1726665592627', 'count': 0}, {'id': 6419, 'name': '学院1726665627888', 'count': 0}, {'id': 6427, 'name': '学院1726712197434', 'count': 0}, {'id': 6429, 'name': '学院1726712272520', 'count': 0}, {'id': 6430, 'name': '学院1726712441070', 'count': 0}, {'id': 6431, 'name': '学院1726712473995', 'count': 0}, {'id': 6432, 'name': '学院1726712575310', 'count': 0}, {'id': 6433, 'name': '学院1726712599023', 'count': 0}, {'id': 6435, 'name': '二本1726716076657', 'count': 0}, {'id': 6437, 'name': 'guang\\u4e1c198314838', 'count': 0}, {'id': 6438, 'name': '学院1726816579034', 'count': 0}, {'id': 6439, 'name': '学院1726816618446', 'count': 0}, {'id': 6441, 'name': 'guang\\u4e1c198364051', 'count': 0}, {'id': 6442, 'name': '学院1726819065919', 'count': 0}, {'id': 6443, 'name': 'guang\\u4e1c198340917', 'count': 0}, {'id': 6446, 'name': 'guang\\u4e1c198350479', 'count': 0}, {'id': 6447, 'name': 'guang\\u4e1c198346234', 'count': 0}, {'id': 6448, 'name': 'test223', 'count': 0}, {'id': 6449, 'name': 'test1726911893223', 'count': 0}, {'id': 6450, 'name': 'test1726912199112', 'count': 0}, {'id': 6453, 'name': 'test1726913237813', 'count': 0}, {'id': 6454, 'name': 'test1726913280335', 'count': 0}, {'id': 6455, 'name': '广东人1726913368133', 'count': 0}, {'id': 6473, 'name': '测试TRREEQ', 'count': 0}, {'id': 6474, 'name': '广东', 'count': 0}, {'id': 6475, 'name': '广东1728464401685', 'count': 0}, {'id': 6476, 'name': '广东1728465601158', 'count': 0}, {'id': 6478, 'name': '广东1728466148245', 'count': 0}, {'id': 6479, 'name': '广东1728466843686', 'count': 0}, {'id': 6480, 'name': '广东1728466935928', 'count': 0}, {'id': 6481, 'name': '徐州1728529222562', 'count': 0}, {'id': 6482, 'name': '徐州1728543804938', 'count': 0}, {'id': 6483, 'name': '徐州1728543847165', 'count': 0}, {'id': 6484, 'name': '徐州1728543855888', 'count': 0}, {'id': 6485, 'name': '徐州1728543862752', 'count': 0}, {'id': 6486, 'name': '徐州1728543877248', 'count': 0}, {'id': 6487, 'name': '徐州1728544611047', 'count': 0}, {'id': 6488, 'name': '徐州1728544908963', 'count': 0}, {'id': 6489, 'name': '徐州1728544953154', 'count': 0}, {'id': 6490, 'name': '徐州1728544998295', 'count': 0}, {'id': 6491, 'name': '徐州1728545175486', 'count': 0}, {'id': 6492, 'name': '徐州1728545189162', 'count': 0}, {'id': 6493, 'name': '徐州1728545196084', 'count': 0}, {'id': 6494, 'name': '徐州1728545212073', 'count': 0}, {'id': 6495, 'name': '徐州1728545353273', 'count': 0}, {'id': 6496, 'name': '徐州dd1728546919931', 'count': 0}, {'id': 6497, 'name': '广东1728548519656', 'count': 0}, {'id': 6498, 'name': '广东1728549099104', 'count': 0}, {'id': 6499, 'name': '广东1728549101222', 'count': 0}, {'id': 6500, 'name': '\\u5e7f\\u4e1c1', 'count': 0}, {'id': 6501, 'name': '\\u5e7f\\u4e1c12', 'count': 0}, {'id': 6502, 'name': '\\u5e7f\\u4e1c124478', 'count': 0}, {'id': 6503, 'name': '\\u5e7f\\u4e1c122033', 'count': 0}, {'id': 6504, 'name': '\\u5e7f\\u4e1c129504', 'count': 0}, {'id': 6505, 'name': '\\u5e7f\\u4e1c126846', 'count': 0}, {'id': 6506, 'name': '\\u5e7f\\u4e1c122162', 'count': 0}, {'id': 6507, 'name': '\\u5e7f\\u4e1c124531', 'count': 0}, {'id': 6508, 'name': '\\u5e7f\\u4e1c129183', 'count': 0}, {'id': 6509, 'name': '\\u5e7f\\u4e1c129572', 'count': 0}, {'id': 6523, 'name': '徐州1728982279463', 'count': 0}, {'id': 6525, 'name': '徐州1728982747251', 'count': 0}, {'id': 6526, 'name': '徐州dd1728983009592', 'count': 0}, {'id': 6527, 'name': '徐州dd1728983494840', 'count': 0}, {'id': 6528, 'name': '徐州131', 'count': 0}, {'id': 6529, 'name': '徐州dd1729048229183', 'count': 0}, {'id': 6530, 'name': '徐州267', 'count': 0}]}"
+"2024-10-17 16:09:16,352 - main - request_util.py[line:19] - INFO - Request URL: post->https://api.weixin.qq.com/cgi-bin/tags/update"
+"2024-10-17 16:09:16,353 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update', 'headers': None, 'params': None, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': {'tag': {'id': 123, 'name': '广东人'}}}"
+"2024-10-17 16:09:16,467 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:09:16,467 - main - request_util.py[line:27] - INFO - Response Body: {'errcode': 41001, 'errmsg': 'access_token missing rid: 6710c62d-762cafff-2cb1e4d3'}"
+"2024-10-17 16:09:16,471 - main - request_util.py[line:19] - INFO - Request URL: post->https://api.weixin.qq.com/cgi-bin/media/uploadimg"
+"2024-10-17 16:09:16,471 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/media/uploadimg', 'headers': None, 'params': {'access_token': '85_2vDzc9tyckMD_onOVKqiRppOr_1rPap_dfoEtDenNLBcUxcLUhwuqxVb6eDNWY8VzzownHn03UpeiQLvblC_i6ve5Huq6Uen75zh40SU4MwWeI2l7Kn-zTnukscCHLiAJAWBF'}, 'data': None, 'cookies': None, 'files': {'media': <_io.BufferedReader name='C:\\Users\\v-williamqiu\\Desktop\\wx\\workspace\\api_test\\testcase\\weixin\\data\\b7455324d5.jpg'>}, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:09:17,211 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:09:17,212 - main - request_util.py[line:27] - INFO - Response Body: {'url': 'http://mmbiz.qpic.cn/sz_mmbiz_jpg/gwVWn1TZHhVice6HOejrj6Gt5Qj7wkNWPUDPUb8gSaibrMzaA2z5d28bQu0g0BZjcqJK1fiaQ7QOaoMSr0ibtRKMBg/0?from=appmsg'}"
+"2024-10-17 16:09:17,215 - main - request_util.py[line:19] - INFO - Request URL: get->http://47.107.116.139/phpwind/"
+"2024-10-17 16:09:17,216 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'http://47.107.116.139/phpwind/', 'headers': None, 'params': None, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:09:17,545 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:09:17,546 - main - request_util.py[line:35] - ERROR - Request failed: Expecting value: line 1 column 1 (char 0)"
+"2024-10-17 16:12:09,493 - main.weixin - conftest.py[line:20] - INFO - 正在清理yaml文件..."
+"2024-10-17 16:12:09,495 - main - request_util.py[line:19] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/token"
+"2024-10-17 16:12:09,495 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'headers': None, 'params': {'grant_type': 'client_credential', 'appid': 'wx8a9de038e93f77ab', 'secret': '8326fc915928dee3165720c910effb86'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:10,184 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:10,184 - main - request_util.py[line:27] - INFO - Response Body: {'access_token': '85_Pc1ahkIVKEak0pX3ZKmXZ6KjQxolGEYkSWFSNoXml54i-fJMtejOoRQS7FTFzFznjrPgeWSivP3s42XmJYbxOybBpBkmCr5JW8d9oO1rJmvhGlaKFqdolEdTLFsKPLaAIAXCY', 'expires_in': 7200}"
+"2024-10-17 16:12:10,193 - main - request_util.py[line:19] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/tags/get"
+"2024-10-17 16:12:10,193 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/get', 'headers': None, 'params': {'access_token': '85_Pc1ahkIVKEak0pX3ZKmXZ6KjQxolGEYkSWFSNoXml54i-fJMtejOoRQS7FTFzFznjrPgeWSivP3s42XmJYbxOybBpBkmCr5JW8d9oO1rJmvhGlaKFqdolEdTLFsKPLaAIAXCY'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:10,514 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:10,515 - main - request_util.py[line:27] - INFO - Response Body: {'tags': [{'id': 2, 'name': '星标组', 'count': 0}, {'id': 6205, 'name': '\\u5e7f\\u4e1c37805', 'count': 0}, {'id': 6311, 'name': 'xiaomingJDHNV', 'count': 0}, {'id': 6313, 'name': '\\u5e7f\\u4e1c', 'count': 0}, {'id': 6314, 'name': 'cece', 'count': 0}, {'id': 6315, 'name': '\\u5e7f\\u4e1c\\u4eba', 'count': 0}, {'id': 6316, 'name': 'ceshi116677788833', 'count': 0}, {'id': 6317, 'name': '\\u6c89\\u7761\\u5ba2\\u6237001', 'count': 0}, {'id': 6318, 'name': '\\u6c89\\u7761\\u5ba2\\u6237002', 'count': 0}, {'id': 6319, 'name': '\\u6c89\\u7761\\u5ba2\\u62378', 'count': 0}, {'id': 6321, 'name': '\\u5e7f\\u4e1c78635', 'count': 0}, {'id': 6322, 'name': '\\u5e7f\\u4e1c25349', 'count': 0}, {'id': 6326, 'name': '\\u6d4b\\u8bd5\\u6807\\u7b7e832', 'count': 0}, {'id': 6327, 'name': '\\u65b0\\u5ba2001', 'count': 0}, {'id': 6372, 'name': '??', 'count': 0}, {'id': 6404, 'name': '广东123', 'count': 0}, {'id': 6405, 'name': '广东1231', 'count': 0}, {'id': 6406, 'name': '技术学院1726663435', 'count': 0}, {'id': 6407, 'name': '技术学院1726663909', 'count': 0}, {'id': 6408, 'name': '技术学院1726663936', 'count': 0}, {'id': 6412, 'name': '学院1726665314165', 'count': 0}, {'id': 6413, 'name': '学院1726665345305', 'count': 0}, {'id': 6414, 'name': '学院1726665437743', 'count': 0}, {'id': 6415, 'name': '学院1726665492005', 'count': 0}, {'id': 6416, 'name': '学院1726665503377', 'count': 0}, {'id': 6417, 'name': '学院1726665512145', 'count': 0}, {'id': 6418, 'name': '学院1726665592627', 'count': 0}, {'id': 6419, 'name': '学院1726665627888', 'count': 0}, {'id': 6427, 'name': '学院1726712197434', 'count': 0}, {'id': 6429, 'name': '学院1726712272520', 'count': 0}, {'id': 6430, 'name': '学院1726712441070', 'count': 0}, {'id': 6431, 'name': '学院1726712473995', 'count': 0}, {'id': 6432, 'name': '学院1726712575310', 'count': 0}, {'id': 6433, 'name': '学院1726712599023', 'count': 0}, {'id': 6435, 'name': '二本1726716076657', 'count': 0}, {'id': 6437, 'name': 'guang\\u4e1c198314838', 'count': 0}, {'id': 6438, 'name': '学院1726816579034', 'count': 0}, {'id': 6439, 'name': '学院1726816618446', 'count': 0}, {'id': 6441, 'name': 'guang\\u4e1c198364051', 'count': 0}, {'id': 6442, 'name': '学院1726819065919', 'count': 0}, {'id': 6443, 'name': 'guang\\u4e1c198340917', 'count': 0}, {'id': 6446, 'name': 'guang\\u4e1c198350479', 'count': 0}, {'id': 6447, 'name': 'guang\\u4e1c198346234', 'count': 0}, {'id': 6448, 'name': 'test223', 'count': 0}, {'id': 6449, 'name': 'test1726911893223', 'count': 0}, {'id': 6450, 'name': 'test1726912199112', 'count': 0}, {'id': 6453, 'name': 'test1726913237813', 'count': 0}, {'id': 6454, 'name': 'test1726913280335', 'count': 0}, {'id': 6455, 'name': '广东人1726913368133', 'count': 0}, {'id': 6473, 'name': '测试TRREEQ', 'count': 0}, {'id': 6474, 'name': '广东', 'count': 0}, {'id': 6475, 'name': '广东1728464401685', 'count': 0}, {'id': 6476, 'name': '广东1728465601158', 'count': 0}, {'id': 6478, 'name': '广东1728466148245', 'count': 0}, {'id': 6479, 'name': '广东1728466843686', 'count': 0}, {'id': 6480, 'name': '广东1728466935928', 'count': 0}, {'id': 6481, 'name': '徐州1728529222562', 'count': 0}, {'id': 6482, 'name': '徐州1728543804938', 'count': 0}, {'id': 6483, 'name': '徐州1728543847165', 'count': 0}, {'id': 6484, 'name': '徐州1728543855888', 'count': 0}, {'id': 6485, 'name': '徐州1728543862752', 'count': 0}, {'id': 6486, 'name': '徐州1728543877248', 'count': 0}, {'id': 6487, 'name': '徐州1728544611047', 'count': 0}, {'id': 6488, 'name': '徐州1728544908963', 'count': 0}, {'id': 6489, 'name': '徐州1728544953154', 'count': 0}, {'id': 6490, 'name': '徐州1728544998295', 'count': 0}, {'id': 6491, 'name': '徐州1728545175486', 'count': 0}, {'id': 6492, 'name': '徐州1728545189162', 'count': 0}, {'id': 6493, 'name': '徐州1728545196084', 'count': 0}, {'id': 6494, 'name': '徐州1728545212073', 'count': 0}, {'id': 6495, 'name': '徐州1728545353273', 'count': 0}, {'id': 6496, 'name': '徐州dd1728546919931', 'count': 0}, {'id': 6497, 'name': '广东1728548519656', 'count': 0}, {'id': 6498, 'name': '广东1728549099104', 'count': 0}, {'id': 6499, 'name': '广东1728549101222', 'count': 0}, {'id': 6500, 'name': '\\u5e7f\\u4e1c1', 'count': 0}, {'id': 6501, 'name': '\\u5e7f\\u4e1c12', 'count': 0}, {'id': 6502, 'name': '\\u5e7f\\u4e1c124478', 'count': 0}, {'id': 6503, 'name': '\\u5e7f\\u4e1c122033', 'count': 0}, {'id': 6504, 'name': '\\u5e7f\\u4e1c129504', 'count': 0}, {'id': 6505, 'name': '\\u5e7f\\u4e1c126846', 'count': 0}, {'id': 6506, 'name': '\\u5e7f\\u4e1c122162', 'count': 0}, {'id': 6507, 'name': '\\u5e7f\\u4e1c124531', 'count': 0}, {'id': 6508, 'name': '\\u5e7f\\u4e1c129183', 'count': 0}, {'id': 6509, 'name': '\\u5e7f\\u4e1c129572', 'count': 0}, {'id': 6523, 'name': '徐州1728982279463', 'count': 0}, {'id': 6525, 'name': '徐州1728982747251', 'count': 0}, {'id': 6526, 'name': '徐州dd1728983009592', 'count': 0}, {'id': 6527, 'name': '徐州dd1728983494840', 'count': 0}, {'id': 6528, 'name': '徐州131', 'count': 0}, {'id': 6529, 'name': '徐州dd1729048229183', 'count': 0}, {'id': 6530, 'name': '徐州267', 'count': 0}]}"
+"2024-10-17 16:12:10,518 - main - request_util.py[line:19] - INFO - Request URL: post->https://api.weixin.qq.com/cgi-bin/tags/update"
+"2024-10-17 16:12:10,518 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update', 'headers': None, 'params': None, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': {'tag': {'id': 123, 'name': '广东人'}}}"
+"2024-10-17 16:12:10,636 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:10,637 - main - request_util.py[line:27] - INFO - Response Body: {'errcode': 41001, 'errmsg': 'access_token missing rid: 6710c6db-0a670fe8-3d23dce5'}"
+"2024-10-17 16:12:10,646 - main - request_util.py[line:19] - INFO - Request URL: post->https://api.weixin.qq.com/cgi-bin/media/uploadimg"
+"2024-10-17 16:12:10,647 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/media/uploadimg', 'headers': None, 'params': {'access_token': '85_Pc1ahkIVKEak0pX3ZKmXZ6KjQxolGEYkSWFSNoXml54i-fJMtejOoRQS7FTFzFznjrPgeWSivP3s42XmJYbxOybBpBkmCr5JW8d9oO1rJmvhGlaKFqdolEdTLFsKPLaAIAXCY'}, 'data': None, 'cookies': None, 'files': {'media': <_io.BufferedReader name='C:\\Users\\v-williamqiu\\Desktop\\wx\\workspace\\api_test\\testcase\\weixin\\data\\b7455324d5.jpg'>}, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:11,241 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:11,242 - main - request_util.py[line:27] - INFO - Response Body: {'url': 'http://mmbiz.qpic.cn/sz_mmbiz_jpg/gwVWn1TZHhVice6HOejrj6Gt5Qj7wkNWPUDPUb8gSaibrMzaA2z5d28bQu0g0BZjcqJK1fiaQ7QOaoMSr0ibtRKMBg/0?from=appmsg'}"
+"2024-10-17 16:12:11,244 - main - request_util.py[line:19] - INFO - Request URL: get->http://47.107.116.139/phpwind/"
+"2024-10-17 16:12:11,244 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'http://47.107.116.139/phpwind/', 'headers': None, 'params': None, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:11,567 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:11,568 - main - request_util.py[line:31] - ERROR - res_type param type error!"
+NoneType: None
+"2024-10-17 16:12:11,568 - main - request_util.py[line:35] - ERROR - Request failed: "
+"2024-10-17 16:12:48,212 - main.weixin - conftest.py[line:20] - INFO - 正在清理yaml文件..."
+"2024-10-17 16:12:48,214 - main - request_util.py[line:19] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/token"
+"2024-10-17 16:12:48,215 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'headers': None, 'params': {'grant_type': 'client_credential', 'appid': 'wx8a9de038e93f77ab', 'secret': '8326fc915928dee3165720c910effb86'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:48,865 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:48,866 - main - request_util.py[line:27] - INFO - Response Body: {'access_token': '85_QjE-u3a1eOhTpp2a86O36iLBPGFOElMHQhg3w4C6PxY2CFCVjCkGonEACxFot_xYslYUUK25WRgSnpSz6VZIJjeD1VbHbFD_ElgiWtQkI8geKbOIIyWv__EBf0oSXRiACAKPJ', 'expires_in': 7200}"
+"2024-10-17 16:12:48,876 - main - request_util.py[line:19] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/tags/get"
+"2024-10-17 16:12:48,876 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/get', 'headers': None, 'params': {'access_token': '85_QjE-u3a1eOhTpp2a86O36iLBPGFOElMHQhg3w4C6PxY2CFCVjCkGonEACxFot_xYslYUUK25WRgSnpSz6VZIJjeD1VbHbFD_ElgiWtQkI8geKbOIIyWv__EBf0oSXRiACAKPJ'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:49,192 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:49,192 - main - request_util.py[line:27] - INFO - Response Body: {'tags': [{'id': 2, 'name': '星标组', 'count': 0}, {'id': 6205, 'name': '\\u5e7f\\u4e1c37805', 'count': 0}, {'id': 6311, 'name': 'xiaomingJDHNV', 'count': 0}, {'id': 6313, 'name': '\\u5e7f\\u4e1c', 'count': 0}, {'id': 6314, 'name': 'cece', 'count': 0}, {'id': 6315, 'name': '\\u5e7f\\u4e1c\\u4eba', 'count': 0}, {'id': 6316, 'name': 'ceshi116677788833', 'count': 0}, {'id': 6317, 'name': '\\u6c89\\u7761\\u5ba2\\u6237001', 'count': 0}, {'id': 6318, 'name': '\\u6c89\\u7761\\u5ba2\\u6237002', 'count': 0}, {'id': 6319, 'name': '\\u6c89\\u7761\\u5ba2\\u62378', 'count': 0}, {'id': 6321, 'name': '\\u5e7f\\u4e1c78635', 'count': 0}, {'id': 6322, 'name': '\\u5e7f\\u4e1c25349', 'count': 0}, {'id': 6326, 'name': '\\u6d4b\\u8bd5\\u6807\\u7b7e832', 'count': 0}, {'id': 6327, 'name': '\\u65b0\\u5ba2001', 'count': 0}, {'id': 6372, 'name': '??', 'count': 0}, {'id': 6404, 'name': '广东123', 'count': 0}, {'id': 6405, 'name': '广东1231', 'count': 0}, {'id': 6406, 'name': '技术学院1726663435', 'count': 0}, {'id': 6407, 'name': '技术学院1726663909', 'count': 0}, {'id': 6408, 'name': '技术学院1726663936', 'count': 0}, {'id': 6412, 'name': '学院1726665314165', 'count': 0}, {'id': 6413, 'name': '学院1726665345305', 'count': 0}, {'id': 6414, 'name': '学院1726665437743', 'count': 0}, {'id': 6415, 'name': '学院1726665492005', 'count': 0}, {'id': 6416, 'name': '学院1726665503377', 'count': 0}, {'id': 6417, 'name': '学院1726665512145', 'count': 0}, {'id': 6418, 'name': '学院1726665592627', 'count': 0}, {'id': 6419, 'name': '学院1726665627888', 'count': 0}, {'id': 6427, 'name': '学院1726712197434', 'count': 0}, {'id': 6429, 'name': '学院1726712272520', 'count': 0}, {'id': 6430, 'name': '学院1726712441070', 'count': 0}, {'id': 6431, 'name': '学院1726712473995', 'count': 0}, {'id': 6432, 'name': '学院1726712575310', 'count': 0}, {'id': 6433, 'name': '学院1726712599023', 'count': 0}, {'id': 6435, 'name': '二本1726716076657', 'count': 0}, {'id': 6437, 'name': 'guang\\u4e1c198314838', 'count': 0}, {'id': 6438, 'name': '学院1726816579034', 'count': 0}, {'id': 6439, 'name': '学院1726816618446', 'count': 0}, {'id': 6441, 'name': 'guang\\u4e1c198364051', 'count': 0}, {'id': 6442, 'name': '学院1726819065919', 'count': 0}, {'id': 6443, 'name': 'guang\\u4e1c198340917', 'count': 0}, {'id': 6446, 'name': 'guang\\u4e1c198350479', 'count': 0}, {'id': 6447, 'name': 'guang\\u4e1c198346234', 'count': 0}, {'id': 6448, 'name': 'test223', 'count': 0}, {'id': 6449, 'name': 'test1726911893223', 'count': 0}, {'id': 6450, 'name': 'test1726912199112', 'count': 0}, {'id': 6453, 'name': 'test1726913237813', 'count': 0}, {'id': 6454, 'name': 'test1726913280335', 'count': 0}, {'id': 6455, 'name': '广东人1726913368133', 'count': 0}, {'id': 6473, 'name': '测试TRREEQ', 'count': 0}, {'id': 6474, 'name': '广东', 'count': 0}, {'id': 6475, 'name': '广东1728464401685', 'count': 0}, {'id': 6476, 'name': '广东1728465601158', 'count': 0}, {'id': 6478, 'name': '广东1728466148245', 'count': 0}, {'id': 6479, 'name': '广东1728466843686', 'count': 0}, {'id': 6480, 'name': '广东1728466935928', 'count': 0}, {'id': 6481, 'name': '徐州1728529222562', 'count': 0}, {'id': 6482, 'name': '徐州1728543804938', 'count': 0}, {'id': 6483, 'name': '徐州1728543847165', 'count': 0}, {'id': 6484, 'name': '徐州1728543855888', 'count': 0}, {'id': 6485, 'name': '徐州1728543862752', 'count': 0}, {'id': 6486, 'name': '徐州1728543877248', 'count': 0}, {'id': 6487, 'name': '徐州1728544611047', 'count': 0}, {'id': 6488, 'name': '徐州1728544908963', 'count': 0}, {'id': 6489, 'name': '徐州1728544953154', 'count': 0}, {'id': 6490, 'name': '徐州1728544998295', 'count': 0}, {'id': 6491, 'name': '徐州1728545175486', 'count': 0}, {'id': 6492, 'name': '徐州1728545189162', 'count': 0}, {'id': 6493, 'name': '徐州1728545196084', 'count': 0}, {'id': 6494, 'name': '徐州1728545212073', 'count': 0}, {'id': 6495, 'name': '徐州1728545353273', 'count': 0}, {'id': 6496, 'name': '徐州dd1728546919931', 'count': 0}, {'id': 6497, 'name': '广东1728548519656', 'count': 0}, {'id': 6498, 'name': '广东1728549099104', 'count': 0}, {'id': 6499, 'name': '广东1728549101222', 'count': 0}, {'id': 6500, 'name': '\\u5e7f\\u4e1c1', 'count': 0}, {'id': 6501, 'name': '\\u5e7f\\u4e1c12', 'count': 0}, {'id': 6502, 'name': '\\u5e7f\\u4e1c124478', 'count': 0}, {'id': 6503, 'name': '\\u5e7f\\u4e1c122033', 'count': 0}, {'id': 6504, 'name': '\\u5e7f\\u4e1c129504', 'count': 0}, {'id': 6505, 'name': '\\u5e7f\\u4e1c126846', 'count': 0}, {'id': 6506, 'name': '\\u5e7f\\u4e1c122162', 'count': 0}, {'id': 6507, 'name': '\\u5e7f\\u4e1c124531', 'count': 0}, {'id': 6508, 'name': '\\u5e7f\\u4e1c129183', 'count': 0}, {'id': 6509, 'name': '\\u5e7f\\u4e1c129572', 'count': 0}, {'id': 6523, 'name': '徐州1728982279463', 'count': 0}, {'id': 6525, 'name': '徐州1728982747251', 'count': 0}, {'id': 6526, 'name': '徐州dd1728983009592', 'count': 0}, {'id': 6527, 'name': '徐州dd1728983494840', 'count': 0}, {'id': 6528, 'name': '徐州131', 'count': 0}, {'id': 6529, 'name': '徐州dd1729048229183', 'count': 0}, {'id': 6530, 'name': '徐州267', 'count': 0}]}"
+"2024-10-17 16:12:49,194 - main - request_util.py[line:19] - INFO - Request URL: post->https://api.weixin.qq.com/cgi-bin/tags/update"
+"2024-10-17 16:12:49,195 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/tags/update', 'headers': None, 'params': None, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': {'tag': {'id': 123, 'name': '广东人'}}}"
+"2024-10-17 16:12:49,307 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:49,307 - main - request_util.py[line:27] - INFO - Response Body: {'errcode': 41001, 'errmsg': 'access_token missing rid: 6710c702-1e258e2e-73fef461'}"
+"2024-10-17 16:12:49,310 - main - request_util.py[line:19] - INFO - Request URL: post->https://api.weixin.qq.com/cgi-bin/media/uploadimg"
+"2024-10-17 16:12:49,311 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'post', 'url': 'https://api.weixin.qq.com/cgi-bin/media/uploadimg', 'headers': None, 'params': {'access_token': '85_QjE-u3a1eOhTpp2a86O36iLBPGFOElMHQhg3w4C6PxY2CFCVjCkGonEACxFot_xYslYUUK25WRgSnpSz6VZIJjeD1VbHbFD_ElgiWtQkI8geKbOIIyWv__EBf0oSXRiACAKPJ'}, 'data': None, 'cookies': None, 'files': {'media': <_io.BufferedReader name='C:\\Users\\v-williamqiu\\Desktop\\wx\\workspace\\api_test\\testcase\\weixin\\data\\b7455324d5.jpg'>}, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:49,943 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:49,944 - main - request_util.py[line:27] - INFO - Response Body: {'url': 'http://mmbiz.qpic.cn/sz_mmbiz_jpg/gwVWn1TZHhVice6HOejrj6Gt5Qj7wkNWPUDPUb8gSaibrMzaA2z5d28bQu0g0BZjcqJK1fiaQ7QOaoMSr0ibtRKMBg/0?from=appmsg'}"
+"2024-10-17 16:12:49,946 - main - request_util.py[line:19] - INFO - Request URL: get->http://47.107.116.139/phpwind/"
+"2024-10-17 16:12:49,946 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'get', 'url': 'http://47.107.116.139/phpwind/', 'headers': None, 'params': None, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:50,271 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:50,272 - main - request_util.py[line:29] - INFO - Response Body: <!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>本站新帖 - phpwind 9.0 - Powered by phpwind</title>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="generator" content="phpwind v9.0.2 20161021" />
+<meta name="description" content="【phpwind 9.0】中的最新帖子列表" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="http://47.107.116.139/phpwind/themes/site/default/css/dev/core.css?v=20161021" />
+<link rel="stylesheet" href="http://47.107.116.139/phpwind/themes/site/default/css/dev/style.css?v=20161021" />
+<!-- <base id="headbase" href="http://47.107.116.139/phpwind/" /> -->
+<script>
+//全局变量 Global Variables
+var GV = {
+	JS_ROOT : 'http://47.107.116.139/phpwind/res/js/dev/',										//js目录
+	JS_VERSION : '20161021',											//js版本号(不能带空格)
+	JS_EXTRES : 'http://47.107.116.139/phpwind/themes/extres',
+	TOKEN : '6bd90535b9d91b04',	//token $.ajaxSetup data
+	U_CENTER : 'http://47.107.116.139/phpwind/index.php?m=space',		//用户空间(参数 : uid)
+	U_AVATAR_DEF : 'http://47.107.116.139/phpwind/res/images/face/face_small.jpg',					//默认小头像
+	U_ID : parseInt('0'),									//uid
+	REGION_CONFIG : '',														//地区数据
+	CREDIT_REWARD_JUDGE : '',			//是否积分奖励，空值:false, 1:true
+	URL : {
+		LOGIN : 'http://47.107.116.139/phpwind/index.php?m=u&c=login',										//登录地址
+		QUICK_LOGIN : 'http://47.107.116.139/phpwind/index.php?m=u&c=login&a=fast',								//快速登录
+		IMAGE_RES: 'http://47.107.116.139/phpwind/res/images',										//图片目录
+		CHECK_IMG : 'http://47.107.116.139/phpwind/index.php?m=u&c=login&a=showverify',							//验证码图片url，global.js引用
+		VARIFY : 'http://47.107.116.139/phpwind/index.php?m=verify&a=get',									//验证码html
+		VARIFY_CHECK : 'http://47.107.116.139/phpwind/index.php?m=verify&a=check',							//验证码html
+		HEAD_MSG : {
+			LIST : 'http://47.107.116.139/phpwind/index.php?m=message&c=notice&a=minilist'							//头部消息_列表
+		},
+		USER_CARD : 'http://47.107.116.139/phpwind/index.php?m=space&c=card',								//小名片(参数 : uid)
+		LIKE_FORWARDING : 'http://47.107.116.139/phpwind/index.php?c=post&a=doreply',							//喜欢转发(参数 : fid)
+		REGION : 'http://47.107.116.139/phpwind/index.php?m=misc&c=webData&a=area',									//地区数据
+		SCHOOL : 'http://47.107.116.139/phpwind/index.php?m=misc&c=webData&a=school',								//学校数据
+		EMOTIONS : "http://47.107.116.139/phpwind/index.php?m=emotion&type=bbs",					//表情数据
+		CRON_AJAX : '',											//计划任务 后端输出执行
+		FORUM_LIST : 'http://47.107.116.139/phpwind/index.php?c=forum&a=list',								//版块列表数据
+		CREDIT_REWARD_DATA : 'http://47.107.116.139/phpwind/index.php?m=u&a=showcredit',					//积分奖励 数据
+		AT_URL: 'http://47.107.116.139/phpwind/index.php?c=remind',									//@好友列表接口
+		TOPIC_TYPIC: 'http://47.107.116.139/phpwind/index.php?c=forum&a=topictype'							//主题分类
+	}
+};
+</script>
+<script src="http://47.107.116.139/phpwind/res/js/dev/wind.js?v=20161021"></script>
+<link href="http://47.107.116.139/phpwind/themes/site/default/css/dev/forum.css?v=20161021" rel="stylesheet" />
+</head>
+<body>
+<style type="text/css">
+</style><div class="wrap">
+<header class="header_wrap">
+	<div id="J_header" class="header cc">
+		<div class="logo">
+			<a href="http://47.107.116.139/phpwind/">
+								<img src="http://47.107.116.139/phpwind/themes/site/default/images/logo.png" alt="phpwind 9.0">
+							</a>
+		</div>
+		<nav class="nav_wrap">
+			<div class="nav">
+				<ul>
+						<li class="current"><a href="index.php?m=bbs">论坛</a></li>
+						<li class=""><a href="index.php?m=bbs&c=forumlist">版块</a></li>
+						<li class=""><a href="index.php?m=like&c=like">喜欢</a></li>
+						<li class=""><a href="index.php?m=tag">话题</a></li>
+					</ul>
+			</div>
+		</nav>
+				<div class="header_search" role="search">
+			<form action="http://47.107.116.139/phpwind/index.php?m=search&c=s" method="post">
+				<input type="text" id="s" aria-label="搜索关键词" accesskey="s" placeholder="搜索其实很简单" x-webkit-speech speech name="keyword"/>
+				<button type="submit" aria-label="搜索"><span>搜索</span></button>
+			<input type="hidden" name="csrf_token" value="6bd90535b9d91b04"/><input type="hidden" name="csrf_token" value="6bd90535b9d91b04"/></form>
+		</div>
+		<div class="header_login">
+	<a rel="nofollow" href="http://47.107.116.139/phpwind/index.php?m=u&c=login">登录</a><a rel="nofollow" href="http://47.107.116.139/phpwind/index.php?m=u&c=register">注册</a>
+</div>
+
+	</div>
+</header>
+<div class="tac"> </div>
+	<div class="main_wrap">
+		
+		<div class="bread_crumb" id="bread_crumb">
+			<a href="http://47.107.116.139/phpwind/" class="home" title="phpwind 9.0">首页</a><em>&gt;</em><a href="http://47.107.116.139/phpwind/">本站新帖</a>
+		</div>
+		
+		<div id="cloudwind_forum_top"></div>
+		<div class="main cc">
+			<div class="main_body">
+				<div class="main_content cc">
+					
+					 
+					<div class="box_wrap thread_page J_check_wrap">
+						<nav>
+							<div class="content_nav" id="hashpos_ttype">
+								<div class="content_filter"><a href="http://47.107.116.139/phpwind/index.php?order=postdate" class="">最新发帖</a><span>|</span><a href="http://47.107.116.139/phpwind/index.php?order=lastpost" class=" current">最后回复</a></div>
+								<ul>
+									<li class="current"><a href="http://47.107.116.139/phpwind/index.php?order=lastpost">本站新帖</a></li>
+																	</ul>
+							</div>
+						</nav>
+						<!--公告-->
+												<!--公告结束-->
+												<div class="thread_posts_list">
+							<table width="100%" id="J_posts_list" summary="帖子列表">
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/54/15418_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="4311133" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83323&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topicnew" title="新帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83323&fid=2" class="st" style="" title="ceshi1729152127649">ceshi1729152127649</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418">4311133</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418">4311133</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83323&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 16:01</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/53/15348_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="xhl" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83322&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topicnew" title="新帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83322&fid=2" class="st" style="" title="测试iohqni">测试iohqni</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348">xhl</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348">xhl</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83322&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 16:00</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/53/15348_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="xhl" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83320&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83320&fid=2" class="st" style="" title="测试bepcai">测试bepcai</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348">xhl</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348">xhl</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83320&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 15:59</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/53/15348_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="xhl" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83321&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topicnew" title="新帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83321&fid=2" class="st" style="" title="测试okdaei">测试okdaei</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348">xhl</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348">xhl</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83321&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 15:58</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/53/15348_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="xhl" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83319&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83319&fid=2" class="st" style="" title="测试lmcmae">测试lmcmae</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348">xhl</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15348" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15348">xhl</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83319&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 15:46</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/54/15418_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="4311133" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83318&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83318&fid=2" class="st" style="" title="ceshi1729150327644">ceshi1729150327644</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418">4311133</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418">4311133</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83318&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 15:31</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="14813" href="http://47.107.116.139/phpwind/index.php?m=space&uid=14813"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/48/14813_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="beiyesama" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83317&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83317&fid=2" class="st" style="" title="标题1729150226">标题1729150226</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="14813" href="http://47.107.116.139/phpwind/index.php?m=space&uid=14813">beiyesama</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="14813" href="http://47.107.116.139/phpwind/index.php?m=space&uid=14813">beiyesama</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83317&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 15:30</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/54/15418_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="4311133" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83316&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83316&fid=2" class="st" style="" title="ceshi1729148527285">ceshi1729148527285</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418">4311133</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418">4311133</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83316&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 15:01</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/56/15687_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="164996999" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83315&fid=3" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=3" class="st">[新闻模块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83315&fid=3" class="st" style="" title="大胜多负少">大胜多负少</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687">164996999</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687">164996999</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83315&fid=3&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:58</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/56/15687_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="164996999" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83314&fid=4" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=4" class="st">[时事新闻]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83314&fid=4" class="st" style="" title="示范岗双缝干涉地方感受到风格">示范岗双缝干涉地方感受到风格</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687">164996999</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687">164996999</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83314&fid=4&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:57</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/56/15687_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="164996999" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83313&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83313&fid=2" class="st" style="" title="123发斯蒂芬">123发斯蒂芬</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687">164996999</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15687" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15687">164996999</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83313&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:51</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/00/00/3_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="pytest" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83312&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83312&fid=2" class="st" style="" title="abce04e6-6350-40ce-9596-3db0d30145ef">abce04e6-6350-40ce-9596-3d...</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83312&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:49</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/00/00/3_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="pytest" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83311&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83311&fid=2" class="st" style="" title="6e94b72a-01c2-4cd9-abef-7415164a8beb">6e94b72a-01c2-4cd9-abef-74...</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83311&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:45</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/00/00/3_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="pytest" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83310&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83310&fid=2" class="st" style="" title="f2b35470-4413-4070-8fe5-91037f7105df">f2b35470-4413-4070-8fe5-91...</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83310&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:43</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/00/00/3_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="pytest" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83309&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83309&fid=2" class="st" style="" title="5535cbb2-52ac-4bc0-ac55-d90c7035f45b">5535cbb2-52ac-4bc0-ac55-d9...</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83309&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:42</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/54/15418_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="4311133" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83308&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83308&fid=2" class="st" style="" title="ceshi1729146727742">ceshi1729146727742</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418">4311133</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="15418" href="http://47.107.116.139/phpwind/index.php?m=space&uid=15418">4311133</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83308&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:31</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="14813" href="http://47.107.116.139/phpwind/index.php?m=space&uid=14813"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/01/48/14813_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="beiyesama" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83307&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83307&fid=2" class="st" style="" title="标题1729146628">标题1729146628</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="14813" href="http://47.107.116.139/phpwind/index.php?m=space&uid=14813">beiyesama</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="14813" href="http://47.107.116.139/phpwind/index.php?m=space&uid=14813">beiyesama</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83307&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:30</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>1</em></span>
+										<span>浏览<em>1</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/00/00/3_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="pytest" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83306&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83306&fid=2" class="st" style="" title="58d9dfe2-fbaf-46de-bf42-41d79f9b87c2">58d9dfe2-fbaf-46de-bf42-41...</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83306&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:29</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/00/00/3_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="pytest" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83305&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83305&fid=2" class="st" style="" title="2d614fec-7a23-407e-b8ab-1c92c5f8f89a">2d614fec-7a23-407e-b8ab-1c...</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83305&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:26</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+																<tr>
+									<td class="author"><a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3"><img src="http://47.107.116.139/phpwind/windid/attachment/avatar/000/00/00/3_small.jpg" onerror="this.onerror=null;this.src='http://47.107.116.139/phpwind/res/images/face/face_small.jpg'" width="45" height="45" alt="pytest" /></a></td>
+									<td class="subject">
+										<p class="title">
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83304&fid=2" target="_blank"><span class="posts_icon"><i class="icon_topic" title="普通帖  新窗口打开"></i></span></a>
+																						<a href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2" class="st">[新版块]</a>
+																						<a href="http://47.107.116.139/phpwind/read.php?tid=83304&fid=2" class="st" style="" title="eda29625-8540-4b15-88a7-8e842364f299">eda29625-8540-4b15-88a7-8e...</a>
+																					</p>
+										<p class="info">
+											楼主：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span>2024-10-17</span>
+											最后回复：<a class="J_user_card_show" data-uid="3" href="http://47.107.116.139/phpwind/index.php?m=space&uid=3">pytest</a><span><a href="http://47.107.116.139/phpwind/read.php?tid=83304&fid=2&page=e#a" rel="nofollow" aria-label="最后回复时间">10-17 14:20</a></span>
+										</p>
+									</td>
+									<td class="num">
+										<span>回复<em>0</em></span>
+										<span>浏览<em>0</em></span>
+									</td>
+								</tr>
+															</table>
+						</div>
+											</div>
+					<div class="J_page_wrap cc" data-key="true">
+						<div class="pages">
+	<strong>1</strong>
+	<a href="http://47.107.116.139/phpwind/index.php?page=2">2</a>
+		<a href="http://47.107.116.139/phpwind/index.php?page=3">3</a>
+		<a href="http://47.107.116.139/phpwind/index.php?page=4">4</a>
+		<a href="http://47.107.116.139/phpwind/index.php?page=561">...561</a>
+		<a href="http://47.107.116.139/phpwind/index.php?page=2" class="pages_next J_pages_next">下一页&nbsp;&raquo;</a>
+</div>
+					</div>
+					
+										 
+				</div>
+			</div>
+			<div class="main_sidebar">
+				    <div class="box_wrap sidebar_login">
+        <!--
+		<form id="J_login_form" action="http://47.107.116.139/phpwind/index.php?m=u&c=login&a=dologin" method="post">
+		<dl>
+			<dt id="J_sidebar_login_dt" class="cc">
+				<i class="icon_username" title="请输入用户名"></i><label for="J_username">用户名</label><input required type="text" class="input" id="J_username" name="username" placeholder="用户名">
+				<i class="icon_password" title="请输入密码"></i><label for="J_password">密　码</label><input required type="password" class="input" id="J_password" name="password" placeholder="密码">
+			</dt>
+			<dd class="associate"><a class="sendpwd" rel="nofollow" href="http://47.107.116.139/phpwind/index.php?m=u&c=findPwd">找回密码</a><label for="head_checkbox" title="下次自动登录"><input type="checkbox" id="head_checkbox" name="rememberme" value="31536000">自动登录</label></dd>
+			<dd class="operate"><button type="submit" id="J_sidebar_login" class="btn btn_big btn_submit">登录</button><a class="btn btn_big btn_error" href="http://47.107.116.139/phpwind/index.php?m=u&c=register" rel="nofollow">立即注册</a></dd>
+		</dl>
+		<input type="hidden" name="csrf_token" value="6bd90535b9d91b04"/><input type="hidden" name="csrf_token" value="6bd90535b9d91b04"/></form>
+        -->
+        <dd class="operate"><button type="button" id="J_sidebar_login" class="btn btn_big btn_submit" onclick="location.href='http://47.107.116.139/phpwind/index.php?m=u&c=login'">登录</button><a class="btn btn_big btn_error" href="http://47.107.116.139/phpwind/index.php?m=u&c=register" rel="nofollow" onclick="location.href='http://47.107.116.139/phpwind/index.php?m=u&c=register'">立即注册</a></dd>
+    </div>
+<!--advertisement id='Site.Sider.User' sys='1'/-->
+
+				<div class="box_wrap" aria-label="版块列表" role="tablist">
+			<h2 class="box_title J_sidebar_box_toggle">版块列表</h2>
+			<div class="forum_menu" >
+							<dl class=" current">
+					<dt class="J_sidebar_forum_toggle"><a href="http://47.107.116.139/phpwind/index.php?c=cate&fid=1">新分类</a></dt>
+					<dd role="tabpanel">
+												<p><a class="" href="http://47.107.116.139/phpwind/index.php?c=thread&fid=2">新版块</a></p>
+												<p><a class="" href="http://47.107.116.139/phpwind/index.php?c=thread&fid=3">新闻模块</a></p>
+											</dd>
+				</dl>
+							</div>
+		</div>
+
+ 
+<!--design role="segment" id="linkdemo"/-->
+
+			</div>
+		</div>
+		<div id="cloudwind_forum_bottom"></div>
+	</div>
+	
+<!--.main-wrap,#main End-->
+<div class="tac">
+ <br />
+ 
+</div>
+<div class="footer_wrap">
+	<div class="footer">
+		
+		<div class="bottom">
+		<a href="http://phpwind.com/about.html">关于phpwind</a><a href="http://phpwind.com/contact.html">联系我们</a><a href="http://www.phpwind.net/thread-htm-fid-39.html">程序建议</a><a href="http://www.phpwind.net/thread-htm-fid-54.html">问题反馈</a>		</div>
+		<p>Powered by <a href="http://www.phpwind.net/" target="_blank" rel="nofollow">phpwind v9.0.2</a> &copy;2003-2015 <a href="http://www.phpwind.com" target="_blank" rel="nofollow">phpwind.com</a> <a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow"></a></p>
+		<p></p>
+	</div>
+	 
+	 
+	 
+	<div id="cloudwind_common_bottom"></div>
+	</div>
+
+<!--返回顶部-->
+<a href="#" rel="nofollow" role="button" id="back_top" tabindex="-1">返回顶部</a>
+
+</div>
+
+<script>
+var FID = '';
+Wind.use('jquery', 'global', function(){
+	if(GV.U_ID) {
+		Wind.js(GV.JS_ROOT +'pages/bbs/threadManage.js?v=' + GV.JS_VERSION);
+	}
+});
+</script>
+
+</body>
+</html>"
+"2024-10-17 16:12:50,288 - main - request_util.py[line:19] - INFO - Request URL: post->http://47.107.116.139/phpwind/index.php?m=u&c=login&a=dorun"
+"2024-10-17 16:12:50,289 - main - request_util.py[line:20] - INFO - Request Body: {'method': 'post', 'url': 'http://47.107.116.139/phpwind/index.php?m=u&c=login&a=dorun', 'headers': {'Accept': 'application/json, text/javascript, /; q=0.01', 'X-Requested-With': 'XMLHttpRequest'}, 'params': {'csrf_token': '6bd90535b9d91b04'}, 'data': {'username': 'baili', 'password': 'baili123', 'csrf_token': None, 'backurl': 'http://47.107.116.139/phpwind/', 'invite': ''}, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
+"2024-10-17 16:12:50,452 - main - request_util.py[line:25] - INFO - Response Code: 200"
+"2024-10-17 16:12:50,452 - main - request_util.py[line:27] - INFO - Response Body: {'referer': None, 'refresh': None, 'state': 'fail', 'message': ['Sorry, CSRF verification failed(token missing or incorrect),refresh to try again.'], '__error': ''}"
+"2024-10-17 17:25:28,020 - main.weixin - conftest.py[line:20] - INFO - 正在清理yaml文件..."
