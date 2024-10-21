@@ -26,9 +26,9 @@ class RequestApi:
             # 记录响应信息
             logger.info(f"Response Code: {response.status_code}")
             if res_type.lower() == "json":
-                logger.info(f"Response Body: {response.json()}")
+                logger.info(f"Response Body->json: {response.json()}")
             elif res_type.lower() == "text":
-                logger.info(f"Response Body: {response.text}")
+                logger.info(f"Response Body->text: {response.text}")
             else:
                 logger.exception(f"res_type param type error!")
                 raise TypeError(
