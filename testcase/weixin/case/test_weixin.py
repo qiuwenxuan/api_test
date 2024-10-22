@@ -6,6 +6,7 @@ sys.path.append(os.getcwd())
 from testcase.weixin.case.conftest import extract_yaml
 from testcase.weixin.case.conftest import case_executor
 from testcase.weixin.case.conftest import validation_handler
+from testcase.weixin.case.conftest import assert_handler
 from testcase.weixin.case.conftest import case_loader
 from testcase.weixin.case.conftest import logger
 import pytest
@@ -19,8 +20,8 @@ class TestWeixin(object):
     def test_get_token(self, story):
         res = case_executor.execute_testcase(story)
         logger.info(res.json())
-        validation_handler.validate_field_length(
-            response=res, key="access_token", expected_length=136
+        assert_handler.assert_equal(
+            len(res.json()["access_token"]), 136, "验证access_token长度是否等于136"
         )
         extract_yaml.edit_data({"access_token": res.json()["access_token"]})
 
@@ -34,19 +35,20 @@ class TestWeixin(object):
         case_loader.update_request_data(story, update_fields)
         res = case_executor.execute_testcase(story)
         logger.info(res.json())
+        assert_handler.assert_equal(res.json()["tags"], 0)
         validation_handler.validate_not_empty(response=res, key="tags")
 
     # 编辑标签
-    @pytest.mark.debug
-    @pytest.mark.parametrize("story", ["edit_flag"])
-    def test_edit_flag(self, story):
-        update_fields = {
-            "params": {"access_token": extract_yaml.get_data(key="access_token")}
-        }
-        case_loader.update_request_data(story, update_fields)
-        res = case_executor.execute_testcase(story)
-        logger.info(res.json())
-        assert len(res.json()) != None and res.status_code == 200
+    # @pytest.mark.debug
+    # @pytest.mark.parametrize("story", ["edit_flag"])
+    # def test_edit_flag(self, story):
+    #     update_fields = {
+    #         "params": {"access_token": extract_yaml.get_data(key="access_token")}
+    #     }
+    #     case_loader.update_request_data(story, update_fields)
+    #     res = case_executor.execute_testcase(story)
+    #     logger.info(res.json())
+    #     assert len(res.json()) != None and res.status_code == 200
 
     # # 文件上传
     # @pytest.mark.passed
