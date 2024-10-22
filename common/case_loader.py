@@ -29,14 +29,23 @@ class CaseLoader(object):
         case_data = self.get_case(story)
         return case_data.vilidate
 
-    def update_case_data(self, story: str, key: str, value: any) -> None:
-        for case in self.cases:
-            if case["story"] == story:
-                if key in case:
-                    case[key] = value
-                    self.yaml_loader.save_data(self.cases)  # 假设你有一个保存数据的方法
-                    return
-                else:
-                    raise KeyError(f"'{key}' not found in the case data.")
+    def update_request_data(self, story: str, data: dict) -> None:
+        request_data = self.get_request_data(story)
+        for key, value in data.items():
+            for k, v in request_data.items():
+                if key == k:
+                    request_data[k] = value
+        self.yaml_loader.save_data(self.cases)
+        return self.get_request_data(story)
 
 
+if __name__ == "__main__":
+    cl = CaseLoader(
+        YamlLoader(
+            r"C:\Users\v-williamqiu\Desktop\wx\workspace\api_test\testcase\weixin\data\test_weixin_data.yaml"
+        )
+    )
+    print(cl.get_case("get_token"))
+    print(cl.get_request_data("get_token"))
+    print(cl.get_validation("get_token"))
+    print(cl.update_request_data("get_token", {"json": 100}))

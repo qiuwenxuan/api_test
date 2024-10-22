@@ -14,7 +14,7 @@
     files:
     auth:
     timeout:
-    json:
+    json: 100
   vilidate: 136 # 验证/断言
 
 - feature: weixin # 模块
@@ -25,6 +25,8 @@
     url: https://api.weixin.qq.com/cgi-bin/tags/get # 请求url
     headers: # 请求头
     params: # 请求参数
+      access_token: 
+        85_2cNSY4hAESaJU52GwCFslbR-t3kpQ2jwMm5z6-fRFEb9tI3soj_aE2RR0RSChgMy_5f38wmFVSC-CgjIq6hVyVGBCSJ_sy8opfhxQipXEHvo_eJgMDauSspwG6sTMEdACAYRJ
     data:
     cookies:
     files:
@@ -41,15 +43,16 @@
     url: https://api.weixin.qq.com/cgi-bin/tags/update # 请求url
     headers: # 请求头
     params: # 请求参数
+      access_token: 
+        85_2cNSY4hAESaJU52GwCFslbR-t3kpQ2jwMm5z6-fRFEb9tI3soj_aE2RR0RSChgMy_5f38wmFVSC-CgjIq6hVyVGBCSJ_sy8opfhxQipXEHvo_eJgMDauSspwG6sTMEdACAYRJ
     data:
     cookies:
     files:
-    auth: ''
+    auth: ""
     timeout:
     json: {"tag": {"id": 123, "name": "广东人"}}
   vilidate: 136 # 验证/断言
 
-  auth: sb
 - feature: weixin # 模块
   story: file_upload # 测试方法
   title: 文件上传接口 # 用例标题

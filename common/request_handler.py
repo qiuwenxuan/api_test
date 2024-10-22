@@ -11,8 +11,8 @@ import requests
 class RequestHandler:
     """统一请求封装类"""
 
-    def __init__(self, logger_name: str = "RequestHandler"):
-        self.logger = LoggerManager(logger_name).get_logger()
+    def __init__(self, logger=None):
+        self.logger = logger if logger else LoggerManager().get_logger()
         self.session = requests.session()
 
     def send_request(self, **kwargs):

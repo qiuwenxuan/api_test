@@ -3,6 +3,7 @@ import os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from common.logger_manager import LoggerManager
 from conf.conf import CONF_PATH
 import configparser
 
@@ -10,7 +11,8 @@ import configparser
 class ParseConf:
     """conf.ini文件操作类"""
 
-    def __init__(self, conf_path=None):
+    def __init__(self, conf_path=None, logger=None):
+        self.logger = logger if logger else LoggerManager().get_logger()
         self.conf = configparser.ConfigParser()
         if conf_path and os.path.exists(conf_path):
             self.conf.read(conf_path)

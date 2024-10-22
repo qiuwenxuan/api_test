@@ -2,11 +2,11 @@ import os
 
 import pytest
 
+from common.assert_handler import AssertHandler
 from common.case_loader import CaseLoader
 from common.logger_manager import LoggerManager
 from common.request_handler import RequestHandler
-from common.testcase_executor import CaseExecutor
-from common.validation_handler import ValidationHandler
+from common.case_executor import CaseExecutor
 from common.yaml_util import YamlLoader
 from conf.conf import ROOT_DIR
 
@@ -20,7 +20,7 @@ casedata_yaml = YamlLoader(
 
 case_loader = CaseLoader(casedata_yaml)
 request_handler = RequestHandler(case_name)
-validation_handler = ValidationHandler(case_name)
+assert_handler = AssertHandler(logger)
 case_executor = CaseExecutor(case_loader, request_handler)
 
 
