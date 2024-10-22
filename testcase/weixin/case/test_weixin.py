@@ -1,34 +1,37 @@
 import os
 import sys
-from typing import Optional
 
 
 sys.path.append(os.getcwd())
-from common.case_util import CaseUtil
-from conf.conf import ROOT_DIR
-from common.yaml_util import YamlUtil
-from object.request_util import RequestApi
 from testcase.weixin.case.conftest import extract_yaml
-from testcase.weixin.case.conftest import case_util
-import re
+from testcase.weixin.case.conftest import case_executor
+from testcase.weixin.case.conftest import validation_handler
+from testcase.weixin.case.conftest import logger
 import pytest
 
 
-class TestApi(object):
+class TestWeixin(object):
 
     # 获取access_token鉴权码
     @pytest.mark.debug
-    def test_get_token(self):
-        res = case_util.run_testcase("get_token")
-        assert len(res.json()["access_token"]) == 136 and res.status_code == 200
+    @pytest.mark.parametrize("story", ["get_token"])
+    def test_get_token(self, story):
+        res = case_executor.execute_testcase(story)
+        logger.info(res.json())
+        validation_handler.validate(
+            response=res, key="access_token", expected_length=136
+        )
         extract_yaml.edit_data({"access_token": res.json()["access_token"]})
 
-    # # 查询标签
-    # @pytest.mark.passed
-    # def test_select_flag(self):
-    #     update_fields = {"params": {"access_token": YU.get_data(key="access_token")}}
-    #     res = self.run_testcase("select_flag", update_fields)
-    #     assert len(res.json()) != None and res.status_code == 200
+    # 查询标签
+    @pytest.mark.debug
+    @pytest.mark.parametrize("story", ["select_flag"])
+    def test_select_flag(self, story):
+
+        res = case_executor.execute_testcase(story)
+        update_fields = {"params": {"access_token": YU.get_data(key="access_token")}}
+        res = self.run_testcase("select_flag", update_fields)
+        assert len(res.json()) != None and res.status_code == 200
 
     # # 编辑标签
     # @pytest.mark.passed

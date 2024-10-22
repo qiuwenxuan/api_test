@@ -1,32 +1,30 @@
-import logging
 import os
+
 import pytest
 
-from common.case_util import CaseUtil
-from common.log import log_init
-from common.yaml_util import YamlUtil
+from common.case_loader import CaseLoader
+from common.logger_manager import LoggerManager
+from common.request_handler import RequestHandler
+from common.testcase_executor import CaseExecutor
+from common.validation_handler import ValidationHandler
+from common.yaml_util import YamlLoader
 from conf.conf import ROOT_DIR
 
-# 定义logger对象
-logger = logging.getLogger("main.weixin")
-casedata_dir = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"
+case_name = "TestWeixin"
+logger = LoggerManager(case_name).get_logger()
+
+extract_yaml = YamlLoader(os.path.join(ROOT_DIR, "extract.yaml"))
+casedata_yaml = YamlLoader(
+    os.path.join(ROOT_DIR, "testcase", "weixin", "data", "test_weixin_data.yaml")
 )
-casedata_path = os.path.join(casedata_dir, "test_weixin_data.yaml")
-extract_path = os.path.join(ROOT_DIR, "extract.yaml")
 
-casedate_yaml = YamlUtil(casedata_path)
-extract_yaml = YamlUtil(extract_path)
-
-case_util = CaseUtil(casedate_yaml)
-
-
-@pytest.fixture(scope="session", autouse=True)
-def ini_log():
-    log_init()
+case_loader = CaseLoader(casedata_yaml)
+request_handler = RequestHandler(case_name)
+validation_handler = ValidationHandler(case_name)
+case_executor = CaseExecutor(case_loader, request_handler)
 
 
 @pytest.fixture(scope="class", autouse=True)
-def clean_yaml():
-    logger.info("正在清理yaml文件...")
+def env_ini():
     extract_yaml.clean_data()
+

@@ -1,6 +1,0 @@
-"2024-10-21 10:16:15,898 - main.weixin - conftest.py[line:31] - INFO - 正在清理yaml文件..."
-"2024-10-21 10:16:51,080 - main.weixin - conftest.py[line:31] - INFO - 正在清理yaml文件..."
-"2024-10-21 10:16:51,082 - main - request_util.py[line:21] - INFO - Request URL: get->https://api.weixin.qq.com/cgi-bin/token"
-"2024-10-21 10:16:51,082 - main - request_util.py[line:22] - INFO - Request Body: {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'headers': None, 'params': {'grant_type': 'client_credential', 'appid': 'wx8a9de038e93f77ab', 'secret': '8326fc915928dee3165720c910effb86'}, 'data': None, 'cookies': None, 'files': None, 'auth': None, 'timeout': None, 'json': None}"
-"2024-10-21 10:16:51,805 - main - request_util.py[line:27] - INFO - Response Code: 200"
-"2024-10-21 10:16:51,805 - main - request_util.py[line:29] - INFO - Response Body->json: {'access_token': '85_cDW3m_J-CM2UB8q7IfyxAFdVV3UzkYeqPHuCfFzqxdvfI26PEq8TPXbPlaSrDkDdON1e6gWjsgngLmGzX0G35KR7pQX3dsUN0yGbGfXT4NEzH4Rsr3xWiVxla5gOFNbABAEVD', 'expires_in': 7200}"
